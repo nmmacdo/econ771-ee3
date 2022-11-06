@@ -1,0 +1,37 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\toprule
+\midrule
+belowBench2006&    2.184\sym{***}&    1.295\sym{***}&    0.940\sym{***}&    0.794\sym{**} &    0.619         \\
+          &  (0.294)         &  (0.281)         &  (0.275)         &  (0.364)         &  (0.472)         \\
+LISPremiumNeg&    0.007         &                  &                  &                  &                  \\
+          &  (0.020)         &                  &                  &                  &                  \\
+LISPremiumPos&   -0.194\sym{***}&                  &                  &                  &                  \\
+          &  (0.062)         &                  &                  &                  &                  \\
+L.LISPremiumNeg&                  &   -0.031         &                  &                  &                  \\
+          &                  &  (0.098)         &                  &                  &                  \\
+L2.LISPremiumNeg&                  &                  &   -0.017         &                  &                  \\
+          &                  &                  &  (0.141)         &                  &                  \\
+L3.LISPremiumNeg&                  &                  &                  &   -0.115         &                  \\
+          &                  &                  &                  &  (0.117)         &                  \\
+L4.LISPremiumNeg&                  &                  &                  &                  &   -0.217\sym{**} \\
+          &                  &                  &                  &                  &  (0.100)         \\
+L.LISPremiumPos&                  &   -0.109         &                  &                  &                  \\
+          &                  &  (0.078)         &                  &                  &                  \\
+L2.LISPremiumPos&                  &                  &    0.027         &                  &                  \\
+          &                  &                  &  (0.157)         &                  &                  \\
+L3.LISPremiumPos&                  &                  &                  &    0.016         &                  \\
+          &                  &                  &                  &  (0.162)         &                  \\
+L4.LISPremiumPos&                  &                  &                  &                  &    0.007         \\
+          &                  &                  &                  &                  &  (0.194)         \\
+\_cons    &   -5.387\sym{***}&   -5.049\sym{***}&   -4.882\sym{***}&   -4.823\sym{***}&   -4.777\sym{***}\\
+          &  (0.305)         &  (0.264)         &  (0.374)         &  (0.344)         &  (0.445)         \\
+\midrule
+\(N\)     &      286         &      279         &      278         &      226         &      194         \\
+\(R^{2}\) &    0.597         &    0.334         &    0.128         &    0.133         &    0.121         \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
